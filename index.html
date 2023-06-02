@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>News App</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="newspaper-heading">
+        <h1>The RealNews Times</h1>
+        <h2 id="today" style="margin-bottom: 4rem"></h2>
+      </div>
+      <section id="main-navbar">
+        <ul id="navbar">
+          <li><a href="#">News</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Market</a></li>
+        </ul>
+      </section>
+
+      <hr />
+      <hr />
+
+      <section class="main-news-container">
+        <div id="moving-headlines">
+          <h2 style="text-align: left; margin: 0.4rem 0; font-size: 2.5rem">
+            Headlines:
+          </h2>
+          <marquee
+            loop="-1"
+            style="background-color: #ccc; font-size: 2.4rem; font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 1rem; "
+            id="moving-headline"
+            ></marquee>
+        </div>
+        <div id="news-section"></div>
+      </section>
+
+      <hr />
+      <hr />
+
+      <section class="footer">
+        <h2
+          style="
+            text-align: left;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 500;
+            font-size: 3rem;
+          "
+        >
+          The RealNews Times
+        </h2>
+        <section id="footer-links">
+          <div class="footer-links-sections">
+            <h1>News</h1>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">World</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Market</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-sections">
+            <h1>More</h1>
+            <ul>
+              <li><a href="#">Podcasts</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Graphics</a></li>
+              <li><a href="#">Cooking</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-sections">
+            <h1>Subscribe</h1>
+            <ul>
+              <li><a href="#">Home Delivery</a></li>
+              <li><a href="#">Digital Subscriptions</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Cooking</a></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

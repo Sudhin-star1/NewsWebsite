@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main-container{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+#main-navbar{
+    background-color: black;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0.4rem;
+}
+
+.newspaper-heading > h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 4.5rem;
+}
+
+#news-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: auto;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    width: 100vw;
+}
+
+#today{
+    text-align: left;
+}
+
+#footer-links{
+    display: flex;
+    background-color: #eee;
+    min-height: 20vh;
+    justify-content: center;
+    gap: 20rem;
+    padding: 2rem;
+}
+
+.footer-links-sections > h1{
+    font-size: 2.5rem ;
+    margin-bottom: 1rem;
+}
+
+.footer-links-sections > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.footer-links-sections > ul > li > a{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.news-div{
+    max-width: 25rem;
+    background-color: #eee;
+    height: 30vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 12px 8px 4px rgb(96, 72, 72);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.news-div > h2 > a {
+    font-size: 1.2rem;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: black;
+    margin-top: 1.5rem;
+}
+
+.news-div:hover{
+    scale: 1.1;
+    box-shadow: 12px 8px 8px rgb(96, 72, 72);
+}
+
+#moving-headline{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    background-color: #eee;
+}
